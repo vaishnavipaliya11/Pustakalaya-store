@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Roboto:wght@300&display=swap');
+
+:root{
+--primary:#ec4899;
+--secondary:#db2777;
+--bg-color:#fdf2f8;
+--gray-color:#4b5563;
+}
+
+.pd-sm{
+    padding: 0.5rem;
+}
+
+.pd-med{
+    padding: 1rem;
+}
+
+.pd-lrg{
+    padding: 2rem;
+}
+
+.mr-sm{
+    margin: 1rem;
+}
+
+.mr-med{
+    margin: 1rem;
+}
+
+.mr-lrg{
+    margin: 2rem;
+}
+
+.fs-sm{
+    font-size:2rem;
+}
+
+.fs-xs{
+    font-size: 0.5rem;
+}
+
+.fs-med{
+    font-size: 1rem;
+}
+
+.fs-lrg{
+    font-size: 2rem;
+}
