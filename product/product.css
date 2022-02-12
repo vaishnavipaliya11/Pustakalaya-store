@@ -1,0 +1,77 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+
+body{
+    margin:0;
+    padding: 0;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: var(--bg-color);
+}
+
+.nav{
+    grid-area: header;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: var(--primary);
+}
+.align-center{
+    align-content: center;
+}
+
+.input{
+    background:#ecf0f1;
+    border: #ccc 1px solid;
+    border-bottom: #ccc 2px solid;
+    padding: 8px;
+    width:250px;
+    color:var(--primary);
+    margin-top:10px;
+    font-size:1em;
+    border-radius:4px;
+    transition: 0.50s;
+    font-family: 'Quicksand', sans-serif;
+  }
+
+.style-icon{
+    /* text-decoration: none; */
+    margin:1rem
+}
+.bi{
+    font-size: 2rem;
+    color: var(--gray-color);
+}
+.bi:hover{
+    color: var(--primary);
+    transition: 0.3s;
+}
+.topnav-link{
+    margin: 6px;
+}
+
+.header-btns{
+    display: flex;
+    align-content: center;
+    background: none;
+    color: var(--primary);
+}
+
+.main-container{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    gap: 10px;
+}
+
+.product-side-bar{
+    display: flex;
+    flex-direction: column;
+}
+
+.filter-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
