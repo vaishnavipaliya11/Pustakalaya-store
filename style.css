@@ -2,6 +2,7 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
 @import "./topnav.css";
 @import "./card.css";
+
 :root {
     --main-light-color: #fbcfe8;
     --img-square: 200px;
@@ -59,13 +60,15 @@ body {
 }
 
 /* category */
-.link-no-style{
+.link-no-style {
     text-decoration: none;
 }
+
 #heading {
     align-self: center;
     font-size: larger;
 }
+
 .category-container {
     grid-area: category;
     background-color: rgb(238, 238, 238);
@@ -84,7 +87,7 @@ body {
     justify-content: center;
 }
 
-.title-white{
+.title-white {
     color: white;
 }
 
@@ -127,8 +130,8 @@ body {
     border-radius: 0px 0px 40px 40px;
     font-family: sans-serif;
     font-size: 30px;
-    text-shadow: -1px 2px 20px #000000;   
-     margin-top: -80px;
+    text-shadow: -1px 2px 20px #000000;
+    margin-top: -80px;
     height: 40px;
 }
 
@@ -156,7 +159,7 @@ body {
 }
 
 /*Arrival card horizontal*/
-.card-arrival{
+.card-arrival {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -165,17 +168,21 @@ body {
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
-.card_image{
+
+.card_image {
     align-self: center;
 }
-.card_title{
+
+.card_title {
     margin: 2%;
 }
-.new-arrivals-container{
-   display: flex;
-   flex-direction: row;
-   justify-content: space-around;
-   flex-wrap: wrap;
-   justify-content: space-between;
+
+.new-arrivals-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
+
 /*product card vertical*/
