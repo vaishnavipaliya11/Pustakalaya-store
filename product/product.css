@@ -68,16 +68,17 @@ body{
     color: var(--primary);
 }
 
-.main-container{
+/* .main-container{
     display: grid;
     grid-template-columns: 1fr 5fr;
    margin-top: 2rem;
-}
+} */
 
 .product-side-bar{
     display: flex;
     flex-direction: column;
     grid-area: sideBar;
+    box-shadow: 2px 2px 2px 2px #ccc;
     
 }
 
@@ -122,19 +123,20 @@ body{
 .side-bar-category{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    margin-left: 1.5rem;
 }
 
 .ratings{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    margin-left: 1.5rem;
 }
 
 .sort-by{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    margin-left: 1.5rem;
+
 }
 
 .bar-heading{
