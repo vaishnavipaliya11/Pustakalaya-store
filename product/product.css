@@ -163,7 +163,6 @@ body{
     background-color: blanchedalmond;
     display: flex;
     flex-direction: column;
-    /* height: 2rem; */
     margin: 1rem;
     padding: 1rem;
     box-shadow:2px 2px 2px 2px #ccc;
