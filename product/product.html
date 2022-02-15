@@ -6,25 +6,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/utility.css">
+    <link rel="stylesheet" href="/topnav.css">
     <link rel="stylesheet" href="/product/product.css">
-    <title>Document</title>
+    <title>Pustakalaya | Products</title>
 </head>
 
 <body>
-    <div class="app-container">
+    <article class="app-container">
         <header class="nav">
-            <nav>
-                <h2>Pustakalya</h2>
+            <nav class="nav-left">
+              <h2 id="nav-title">Pustakalya</h2>
+              <a class="gray-title" href="#">
+                <h4" id="nav-title">Home</h4>
+              </a>
+              <a class="gray-title" href="/product/product.html">
+                <h4" id="nav-title">Shop Now</h4>
+              </a>
             </nav>
-
-            <div class="align-center"><input type="email" name="email" placeholder="Search...." class="input" /></a>
+            <div class="align-center">
+              <div class="search-bar"><input type="search" name="email" placeholder="Search" class="input-rounded" />
+                <button class="link-no-style search-bar-btn">
+                  <i style="font-size: 1.5rem;" class="bi bi-search"></i>
+                </button></div>
             </div>
             <div class="icon-container">
-                <a class="topnav-link style-icon" href=""><span><i class="bi bi-person-fill"></i></span></a>
-                <a class="topnav-link" href=""><span><i class="bi bi-suit-heart-fill"></i></span"></a>
-                <a class="topnav-link" href=""><span><i class="bi bi-cart-check-fill"></i></span></a>
+              <a class="topnav-link" href=""><span><i class="bi bi-person-fill"></i></span></i></a>
+              <a class="topnav-link" href=""><span><i class="bi bi-suit-heart-fill"></i></span"></a>
+              <a class="topnav-link" href=""><span><i class="bi bi-cart-check-fill"></i></span></a>
             </div>
-        </header>
+          </header>
 
 
         <aside class="product-side-bar">
@@ -83,8 +93,13 @@
                 <img class="card-img-top" src="/images/bhagvad-gita.jpg" alt="">
                 <div class="card-body">
                     <p class="card-title">Bhagvad Gita</p>
-                    <p class="card-text">Rs 350</p>
-                    <a href="#" class="btn-card">Add to cart</a>
+                    <p class="card-text">Rs 350 <span class="discount-para">(20% off)</span></p>
+                    <div class="card-btn-icon">
+                        <a href="#" class="btn-card">Add to cart</a>
+                        <a href="#"><span><i class="bi bi-suit-heart-fill card-icon"></i></span"></a>
+                    </div>
+                    
+    
                 </div>
             </div>
 
@@ -93,7 +108,11 @@
                 <div class="card-body">
                     <p class="card-title">Javascript</p>
                     <p class="card-text">Rs 299 <span class="discount-para">(50% off)</span></p>
-                    <a href="#" class="btn-card">Add to cart</a>
+                    <div class="card-btn-icon">
+                        <a href="#" class="btn-card">Add to cart</a>
+                        <a href="#"><span><i class="bi bi-suit-heart-fill card-icon"></i></span"></a>
+                    </div>
+                    
                 </div>
             </div>
 
@@ -102,7 +121,10 @@
                 <div class="card-body">
                     <p class="card-title">Decision Maker</p>
                     <p class="card-text">Rs 299 <span class="discount-para">(50% off)</span></p>
-                    <a href="#" class="btn-card">Add to cart</a>
+                    <div class="card-btn-icon">
+                        <a href="#" class="btn-card">Add to cart</a>
+                        <a href="#"><span><i class="bi bi-suit-heart-fill card-icon"></i></span"></a>
+                    </div>
                 </div>
             </div>
 
@@ -111,7 +133,10 @@
                 <div class="card-body">
                     <p class="card-title">Wings of fire</p>
                     <p class="card-text">Rs 329 <span class="discount-para">(20% off)</span></p>
-                    <a href="#" class="btn-card">Add to cart</a>
+                    <div class="card-btn-icon">
+                        <a href="#" class="btn-card">Add to cart</a>
+                        <a href="#"><span><i class="bi bi-suit-heart-fill card-icon"></i></span"></a>
+                    </div>
                 </div>
             </div>
 
@@ -120,7 +145,10 @@
                 <div class="card-body">
                     <p class="card-title">48 Laws Power</p>
                     <p class="card-text">Rs 200 <span class="discount-para">(30% off)</span></p>
-                    <a href="#" class="btn-card">Add to cart</a>
+                    <div class="card-btn-icon">
+                        <a href="#" class="btn-card">Add to cart</a>
+                        <a href="#"><span><i class="bi bi-suit-heart-fill card-icon"></i></span"></a>
+                    </div>
                 </div>
             </div>
             <div class="card-container">
@@ -128,7 +156,10 @@
                 <div class="card-body">
                     <p class="card-title">48 Laws Power</p>
                     <p class="card-text">Rs 370 <span class="discount-para">(10% off)</span></p>
-                    <a href="#" class="btn-card">Add to cart</a>
+                    <div class="card-btn-icon">
+                        <a href="#" class="btn-card">Add to cart</a>
+                        <a href="#"><span><i class="bi bi-suit-heart-fill card-icon"></i></span"></a>
+                    </div>
                 </div>
             </div>
             <div class="card-container">
@@ -136,7 +167,10 @@
                 <div class="card-body">
                     <p class="card-title">React Learning</p>
                     <p class="card-text">Rs 250 <span class="discount-para">(10% off)</span></p>
-                    <a href="#" class="btn-card">Add to cart</a>
+                    <div class="card-btn-icon">
+                        <a href="#" class="btn-card">Add to cart</a>
+                        <a href="#"><span><i class="bi bi-suit-heart-fill card-icon"></i></span"></a>
+                    </div>
                 </div>
             </div>
             <div class="card-container">
@@ -144,7 +178,10 @@
                 <div class="card-body">
                     <p class="card-title">Node</p>
                     <p class="card-text">Rs 500 <span class="discount-para">(25% off)</span></p>
-                    <a href="#" class="btn-card">Add to cart</a>
+                    <div class="card-btn-icon">
+                        <a href="#" class="btn-card">Add to cart</a>
+                        <a href="#"><span><i class="bi bi-suit-heart-fill card-icon"></i></span"></a>
+                    </div>
                 </div>
             </div>
 
@@ -153,7 +190,10 @@
                 <div class="card-body">
                     <p class="card-title">Youth of India</p>
                     <p class="card-text">Rs 600 <span class="discount-para">(35% off)</span></p>
-                    <a href="#" class="btn-card">Add to cart</a>
+                    <div class="card-btn-icon">
+                        <a href="#" class="btn-card">Add to cart</a>
+                        <a href="#"><span><i class="bi bi-suit-heart-fill card-icon"></i></span"></a>
+                    </div>
                 </div>
             </div>
             <div class="card-container">
@@ -161,7 +201,10 @@
                 <div class="card-body">
                     <p class="card-title">Elon</p>
                     <p class="card-text">Rs 400 <span class="discount-para">(25% off)</span></p>
-                    <a href="#" class="btn-card">Add to cart</a>
+                    <div class="card-btn-icon">
+                        <a href="#" class="btn-card">Add to cart</a>
+                        <a href="#"><span><i class="bi bi-suit-heart-fill card-icon"></i></span"></a>
+                    </div>
                 </div>
             </div>
             <div class="card-container">
@@ -169,12 +212,15 @@
                 <div class="card-body">
                     <p class="card-title"> Jordan Peterson</p>
                     <p class="card-text">Rs 700 <span class="discount-para">(20% off)</span></p>
-                    <a href="#" class="btn-card">Add to cart</a>
+                    <div class="card-btn-icon">
+                        <a href="#" class="btn-card">Add to cart</a>
+                        <a href="#"><span><i class="bi bi-suit-heart-fill card-icon"></i></span"></a>
+                    </div>
                 </div>
             </div>
         </div>
 
-    </div>
+    </article>
 
 
     <script src="/product/range.js"></script>
