@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Roboto:wght@300&display=swap');
 
 :root{
---primary:#ec4899;
---secondary:#db2777;
+--primary:rgb(73, 73, 73);
+--secondary:#000000;
+--red-color: #dc2626;
 --bg-color:#fdf2f8;
 --gray-color:#4b5563;
+--btn-color:rgb(47, 141, 241);
 }
 
 .pd-sm{
