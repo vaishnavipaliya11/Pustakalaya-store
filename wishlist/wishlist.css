@@ -8,13 +8,14 @@
     --btn-hover-clr:#0ea5e9;
     --wishlist-clr:#e11d48;
     --product-bg:#f0f0f0;
+    --p-badge-bg:rgb(7, 236, 19);
+    --p-badge-heading: rgb(226, 13, 13);
 }
 
 body{
     margin: 0;
     padding: 0;
     height: 100vh;
-    overflow-y: hidden;
     box-sizing: border-box;
     font-family: 'Roboto Slab', serif;
 }
@@ -71,8 +72,8 @@ body{
     text-transform: uppercase;
     font-size: 13px;
     font-weight: 700;
-    background: rgb(7, 236, 19);
-    color: rgb(226, 13, 13);
+    background: var(--p-badge-bg);
+    color:var(--p-badge-heading);
     padding: 3px 10px;
   }
   
