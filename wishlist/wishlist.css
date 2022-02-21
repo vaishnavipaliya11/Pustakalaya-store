@@ -1,0 +1,84 @@
+@import "./topnav.css";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+:root{
+    --btn-color: #2563eb;
+    --btn-hover-clr:#0ea5e9;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow-y: hidden;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+
+.topnav{
+    height: 5rem;
+    width: 100%;
+}
+.products-container{
+    height: calc(100vh - 5rem);
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+.lists ul li{
+    list-style-type: none;
+    margin: -5%;
+    font-size:medium;
+}
+#title-price{
+    margin: 0%;
+}
+.products-card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product-links{
+    display: flex;
+    flex-direction: row;
+}
+.btn-card {
+    background-color:var(--btn-color);
+    text-decoration: none;
+    color: white;
+    border-radius: 2%;
+    width: max-content;
+    height: max-content;
+    padding: 0.5rem
+}
+
+.btn-card:hover {
+    background-color: var(--btn-hover-clr);
+}
+
+.size-card{
+    width: 15rem;
+    height: 15rem;
+}
+.lists ul li:hover{
+    color: var(--orange);
+}
+.slidecontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lists{
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title-price{
+    position: absolute;
+}
