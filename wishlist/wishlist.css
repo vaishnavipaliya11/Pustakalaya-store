@@ -7,6 +7,7 @@
     --btn-color: #2563eb;
     --btn-hover-clr:#0ea5e9;
     --wishlist-clr:#e11d48;
+    --product-bg:#f0f0f0;
 }
 
 body{
@@ -80,7 +81,7 @@ body{
     align-items: center;
     justify-content: center;
     height: 250px;
-    background: #f0f0f0;
+    background: var(--product-bg);
   }
   .product-tumb img {
     max-width: 100%;
@@ -102,7 +103,7 @@ body{
   .product-details h4 a {
     font-weight: 600;
     display: block;
-    margin-bottom: 18px;
+    margin-bottom: 1.8rem;
     text-transform: uppercase;
     color: #000000;
     text-decoration: none;
